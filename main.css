@@ -75,5 +75,6 @@ nav:active ul{
   display: flex;
 }
   body{
+     background-size: cover;
     background-repeat:no-repeat;
 /*end of navbar*/
