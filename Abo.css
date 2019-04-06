@@ -1,0 +1,122 @@
+body{
+  background: url(bw.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav{
+  display: block;
+}
+nav ul{
+  display:flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 50px;
+  text-align: right;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: 0.8em 1em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+}
+nav a:hover{
+  background-color: red;
+  font-size: 23px;
+}
+.menu-icon{
+  display: none;
+  justify-content: flex-end;
+  font-size: 2em;
+  cursor: pointer;
+  line-height: 60px;
+  padding-right: 10px;
+  color: #fff;
+}
+.main{
+  margin-left: 35%;
+  margin-top: -1%;
+}
+.card{
+  width: 50%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px; 
+  margin: 2%;
+}
+.image img{
+  width: 100%;
+  margin-left: -15%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.title{
+  margin-top: 14%;
+  text-align: center;
+  padding: 5px;
+}
+h1{
+  margin-top: 13%;
+  font-size: 20px;
+  color: white;
+}
+.des{
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  padding-top: 9px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.image{
+  margin-top: -1%;
+  transform: rotate(270deg);
+}
+@media screen and (max-width:800px){    
+.sticky{
+  position: static;
+  width: 100%;
+}
+nav ul{
+  display: none;
+  flex-direction: column;
+}
+section p{
+  column-count: 1;
+}
+.menu-icon{
+  display: flex;
+}
+nav:hover ul{
+  display: flex;
+}
+nav:active ul{
+  display: flex;
+}

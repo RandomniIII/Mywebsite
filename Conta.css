@@ -1,0 +1,104 @@
+body{
+  background: url(HDIMG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav{
+  display: block;
+}
+nav ul{
+  display:flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 50px;
+  text-align: right;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: 0.8em 1em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+}
+nav a:hover{
+  background-color: red;
+  font-size: 23px;
+}
+.menu-icon{
+  display: none;
+  justify-content: flex-end;
+  font-size: 2em;
+  cursor: pointer;
+  line-height: 60px;
+  padding-right: 10px;
+  color: #fff;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.h1{
+  text-align: center;
+  margin-top: 20%;
+}
+.h2{
+  text-align: center;
+}
+.in{
+  text-align: center;
+}
+button{
+  
+}
+.em{
+  text-align: center;
+}
+@media screen and (max-width:700px){    
+.sticky{
+  position: static;
+  width: 100%;
+}
+nav ul{
+  display: none;
+  flex-direction: column;
+}
+section p{
+  column-count: 1;
+}
+.menu-icon{
+  display: flex;
+}
+nav:hover ul{
+  display: flex;
+}
+nav:active ul{
+  display: flex;
+}

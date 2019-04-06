@@ -1,0 +1,75 @@
+body{
+  background-image: url(PL.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*start of navbar*/
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav{
+  display: block;
+}
+nav ul{
+  display:flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 50px;
+  text-align: right;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: 0.8em 1em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+}
+nav a:hover{
+  background-color: red;
+  font-size: 23px;
+}
+.menu-icon{
+  display: none;
+  justify-content: flex-end;
+  font-size: 2em;
+  cursor: pointer;
+  line-height: 60px;
+  padding-right: 10px;
+  color: #fff;
+}
+.head1{
+  text-align: center;
+  margin-top: 20%;
+  font-family: arial;
+}
+@media screen and (max-width:800px){    
+.sticky{
+  position: static;
+  width: 100%;
+}
+nav ul{
+  display: none;
+  flex-direction: column;
+}
+section p{
+  column-count: 1;
+}
+.menu-icon{
+  display: flex;
+}
+nav:hover ul{
+  display: flex;
+}
+nav:active ul{
+  display: flex;
+}
+/*end of navbar*/
