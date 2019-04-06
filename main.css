@@ -2,7 +2,6 @@ body{
   background-image: url(PL.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 /*start of navbar*/
 .container{
@@ -74,8 +73,4 @@ nav:hover ul{
 nav:active ul{
   display: flex;
 }
-  body{
-     background-size: cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
 /*end of navbar*/
