@@ -50,6 +50,7 @@ nav a:hover{
   text-align: center;
   margin-top: 20%;
   font-family: arial;
+  color: white;
 }
 @media screen and (max-width:800px){    
 .sticky{
