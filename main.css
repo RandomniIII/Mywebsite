@@ -75,4 +75,11 @@ nav:hover ul{
 nav:active ul{
   display: flex;
 }
+  body{
+   background: url(PL.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
 /*end of navbar*/
