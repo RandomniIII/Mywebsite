@@ -120,3 +120,8 @@ nav:hover ul{
 nav:active ul{
   display: flex;
 }
+body{
+  background: url(lw.jpg);
+  background-size: cover;
+  background-attachment: fixed; 
+}
