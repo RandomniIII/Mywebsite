@@ -102,3 +102,6 @@ nav:hover ul{
 nav:active ul{
   display: flex;
 }
+body{
+  background-repeat: no-repeat;
+  }
