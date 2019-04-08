@@ -81,7 +81,7 @@ nav a:hover{
 .cms{
   margin-left: 15%;  
 }
-.button{
+button{
   boreder-radius: 50%;
 }
 @media screen and (max-width:1024px){    
