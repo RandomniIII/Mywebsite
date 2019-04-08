@@ -81,6 +81,9 @@ nav a:hover{
 .cms{
   margin-left: 15%;  
 }
+.button{
+  boreder-radius: 50%;
+}
 @media screen and (max-width:1024px){    
 .sticky{
   position: static;
