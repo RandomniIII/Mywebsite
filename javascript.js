@@ -7,6 +7,7 @@ function myFunction() {
   idArray [5] = "Many people may leave you because you are doing what is best for you and not what they want from you."
   idArray [6] = "Most people have only one perspective on negative thigns if you can change there perspective to something good then you are a miraculous person."
   idArray [7] = "When you start doing something new people will make fun of you then you start proving them wrong and they will set you as a examle of some one very dedicated."
+  idArray [8] = "Dont be something that you arent always be yourself no matter what."
   document.getElementById("select").onclick = myFunction;
   randomParagraph = Math.floor(Math.random()*7);
 
