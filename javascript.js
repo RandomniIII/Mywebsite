@@ -9,7 +9,7 @@ function myFunction() {
   idArray [7] = "When you start doing something new people will make fun of you then you start proving them wrong and they will set you as a example of some one very dedicated."
   idArray [8] = "Dont be something that you arent always be yourself no matter what."
   document.getElementById("select").onclick = myFunction;
-  randomParagraph = Math.floor(Math.random()*7);
+  randomParagraph = Math.floor(Math.random()*8);
 
   document.getElementById("result").innerHTML = idArray[randomParagraph + 1];       
 }
